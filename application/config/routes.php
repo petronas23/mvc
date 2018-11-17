@@ -21,5 +21,12 @@ return [
 		'controller' => 'account',
 		'action' => 'login',
 	],
-	
+	'storages' => [
+		'controller' => 'storage',
+		'action' => 'showStorageForm',
+	],
+	'add-storage' => [
+		'controller' => 'storage',
+		'action' => 'strategy',
+	],
 ];
